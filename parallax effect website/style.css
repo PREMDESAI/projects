@@ -1,0 +1,92 @@
+* {
+     margin: 0px;
+     padding: 0px;
+     box-sizing: border-box;
+}
+
+.wrapper{ 
+    height: 100vh;
+    overflow-x :hidden;
+    overflow-y: auto;
+    perspective: 10px;
+}
+
+.box{ 
+      height: 100%;
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transform-style: preserve-3d;
+      z-index: -1; 
+
+}
+.back{
+       transform: translateZ(-40px) scale(5);
+
+}
+.front{
+       transform: translateZ(-20px) scale(3);
+}
+ .back, .front {
+          position: absolute;    
+          height: 100%;
+          width: 100%;          
+          z-index: -1;
+          object-fit: cover;
+ }
+ h1{
+    position: absolute;
+    top: 5rem;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 6rem;
+    letter-spacing: 4px;
+    color: yellowgreen;
+    text-shadow:0 0 10px  rgba(0,0,0,0.3)
+    }
+    section{
+            background-color: rgb(45,45,45);
+            color: white;
+            padding: 5rem 0;
+    }
+    .bg1{
+      background-image: url(biking.jpg);
+    }
+    .bg2{
+      background-image: url(paragliding.jpg);
+
+    }
+    .bg3{
+      background-image:url(surfing.jpg);
+    }
+    h2{
+        font-size: 5rem;
+        padding:0 10rem;
+    }
+    p{
+      font-size: 1.5rem;
+      padding: 0 10rem;
+      margin: 5rem 0;
+
+    }
+    .bg{
+      position: relative;
+      width: 100%;
+      background-attachment: fixed;
+      height: 500px;
+      background-size: cover;
+      background-position: center;
+
+    }
+    .prem
+    {
+          position: absolute;
+          background-color: white;
+          padding: 0.5 rem .5rem;
+          top: 50%;
+          left: 50%;
+          color: black;
+          font-size: 3.5rem;
+          font-weight:600;
+    }
