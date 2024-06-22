@@ -1,0 +1,71 @@
+index.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container mob-table">
+        <div class="headers">
+            <h2 class="table-title">Manage Mobiles</h2>
+            <button class="btn add">Add mobile</button>
+        </div>
+
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Mobile</th>
+                    <th>Price(Rs)</th>
+                    <th>RAM</th>
+                    <th>Storage</th>
+                    <th></th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody class="text-center">
+            </tbody>
+
+        </table>
+    </div>
+
+    <div class="form-wrapper">
+        <div class="mobileForm">
+
+            <div class="group">
+                <label for="mobile">Name</label>
+                <input type="text" class="form-control" id="mobile" required minlength="5">
+            </div>
+            <div class="group">
+                <label for="price">Price</label>
+                <input type="number" class="form-control" id="price" required min="1000">
+            </div>
+            <div class="group">
+                <label for="ram">RAM</label>
+                <input type="number" class="form-control" id="ram" required min="1">
+            </div>
+            <div class="group">
+                <label for="storage">Storage</label>
+                <input type="number" class="form-control" id="storage" required min="1">
+            </div>
+
+            <div class="action">
+                <button class="btn btn-primary save">Save Changes</button>
+                <button class="btn btn-danger cancel">Cacel</button>
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+<script src="script.js"></script>
+</body>
+</html>

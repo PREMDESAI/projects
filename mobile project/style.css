@@ -1,0 +1,100 @@
+style.css
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.mob-table{
+    max-width: 800px;
+    padding: 20px 25px;
+    background-color: #fff;
+    margin: 30px 0;
+    border-radius: 3px;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.05);
+
+}
+
+.headers{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #435d7d;
+    color: #fff;
+    padding: 16px 30px;
+}
+
+.add{
+    background-color: #5cb85c;
+    color: white;
+}
+
+th{
+    text-align: center;
+    color: #566787;
+}
+
+.btn{
+    padding: 3px 20px;
+    min-width: 90px;
+}
+
+.btn-primary{
+    color: #fff;
+    background-color: #337ab7;
+    border-color: #2e6da4;
+}
+
+.form-wrapper{
+    display: none;
+}
+.form-wrapper.active {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: rgba(0,0,0,0.6);
+    z-index: 100;
+}
+
+.mobileForm{
+    background-color: white;
+    width: 600px;
+    padding: 20px 50px;
+    border-radius: 5px;
+}
+
+
+.form-control{
+    width: 90%;
+}
+
+.group{
+    display: flex;
+    margin: 15px 0;
+}
+
+.group label{
+    width: 70px;
+    line-height: 40px;
+    height: 40px;
+}
+
+.action{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin: 20px;
+}
