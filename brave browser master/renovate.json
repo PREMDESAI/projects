@@ -1,0 +1,14 @@
+{
+  "extends": [
+    "local>brave/renovate-config"
+  ],
+  "draftPR": true,
+  "prConcurrentLimit": 2,
+  "labels": [
+    "dependencies",
+    "renovate"
+  ],
+  "reviewers": [
+    "mihaiplesa"
+  ]
+}
