@@ -1,0 +1,25 @@
+{
+  "name": "chessboard-monitor",
+  "version": "0.0.0",
+  "description": "A simple example deployed using react-codesandboxer",
+  "main": "index.tsx",
+  "dependencies": {
+    "react": "^16.8.0",
+    "@emotion/react": "11.7.1",
+    "@atlaskit/pragmatic-drag-and-drop": "1.2.1",
+    "tiny-invariant": "^1.2.0",
+    "@atlaskit/pragmatic-drag-and-drop-docs": "1.1.0",
+    "@atlaskit/css-reset": "latest",
+    "styled-components": "3.2.6",
+    "@atlaskit/analytics-next": "^9.2.0",
+    "@atlaskit/app-provider": "latest",
+    "react-dom": "^16.8.0",
+    "react-scripts-ts": "^2.13.0"
+  },
+  "scripts": {
+    "start": "react-scripts-ts start",
+    "build": "react-scripts-ts build",
+    "test": "react-scripts-ts test --env=jsdom",
+    "eject": "react-scripts-ts eject"
+  }
+}
