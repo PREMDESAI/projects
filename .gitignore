@@ -1,63 +1,49 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
-
-# dependencies
-node_modules
-/.pnp
-.pnp.js
-
-# testing
-/coverage
-
-# production
-build/
-web-build/
-
-# misc
 .DS_Store
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
-.parcel-cache
+.reify-cache
 
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
+# build
+build
+build-translations/*
+hass_frontend/*
+dist
 
-.rollup.cache
-dist/
-.turbo
-.env
-.idea
-test-ledger/
-
-.expo
-.next
-
-*-e
-
-.eslintcache
-.js.map
-.d.ts.map
-.tsbuildinfo
-
-.dev.vars
-.tamagui
-.d.ts
-.d.ts.map
-
-# Not using zero-installs
-# https://yarnpkg.com/getting-started/qa#which-files-should-be-gitignored
-.pnp.*
+# yarn
 .yarn/*
 !.yarn/patches
-!.yarn/plugins
 !.yarn/releases
+!.yarn/plugins
 !.yarn/sdks
 !.yarn/versions
+.pnp.*
+node_modules/*
+yarn-error.log
+npm-debug.log
 
-# Local Netlify folder
-.netlify
-*.apk
-*.abb
-.envrc
+# Python stuff
+*.py[cod]
+*.egg
+*.egg-info
+
+# venv stuff
+pyvenv.cfg
+pip-selfcheck.json
+venv/*
+.venv
+
+# vscode
+.vscode/*
+!.vscode/extensions.json
+!.vscode/launch.json
+!.vscode/tasks.json
+
+# Cast dev settings
+src/cast/dev_const.ts
+
+# Secrets
+.lokalise_token
+
+# asdf
+.tool-versions
+
+# Home Assistant config
+/config

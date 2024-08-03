@@ -1,5 +1,10 @@
-build/
-lib/
-dist/
-d.ts
-__generated__
+build
+build-translations/*
+translations/*
+node_modules/*
+hass_frontend/*
+pip-selfcheck.json
+
+# vscode
+.vscode/*
+!.vscode/extensions.json
