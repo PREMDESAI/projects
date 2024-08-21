@@ -1,0 +1,88 @@
+<div class="container">
+  <h2>Profile</h2>
+  <div class="profile-info">
+    <p><strong>Username:</strong> {{ user.username }}</p>
+    <p><strong>Email:</strong> {{ user.email }}</p>
+  </div>
+  @if(isProfileAuthor()){
+  <div class="profile-actions">
+    <button routerLink="/view-profile/{{user._id}}/edit" class="edit-profile-button">Edit Profile</button>
+    <button routerLink="/view-profile/{{user._id}}/change-password" class="change-password-button">Change Password</button>
+  </div>
+  }
+  <br>
+  <div class="toggle-buttons">
+    <input
+      type="radio"
+      id="userQuotes"
+      name="profileSection"
+      value="userQuotes"
+      (click)="selectedSection = 'userQuotes'"
+    />
+    <label for="userQuotes">User Quotes</label>
+
+    <input
+      type="radio"
+      id="likedQuotes"
+      name="profileSection"
+      value="likedQuotes"
+      (click)="selectedSection = 'likedQuotes'"
+    />
+    <label for="likedQuotes">Liked Quotes</label>
+
+    <input
+      type="radio"
+      id="favoriteQuotes"
+      name="profileSection"
+      value="favoriteQuotes"
+      (click)="selectedSection = 'favoriteQuotes'"
+    />
+    <label for="favoriteQuotes">Favorite Quotes</label>
+  </div>
+
+  <div class="quote-list" *ngIf="selectedSection === 'userQuotes'">
+    <h3>User Quotes</h3>
+    <div class="quote-card" *ngFor="let quote of user.quotes">
+      <a routerLink="/quotes/{{ quote._id }}">
+        <p>{{ quote.content }}</p>
+        <p>User Prompt: {{ quote.userPrompt }}</p>
+      </a>
+      <!-- Add delete icon for user quotes -->
+      @if(isQuoteAuthor(quote)){
+      <button (click)="deleteQuote(quote._id)" class="delete-icon">
+        Delete
+      </button>
+      }
+    </div>
+  </div>
+
+  <div class="quote-list" *ngIf="selectedSection === 'likedQuotes'">
+    <h3>Liked Quotes</h3>
+    <div class="quote-card" *ngFor="let quote of user.likedQuotes">
+      <a routerLink="/quotes/{{ quote._id }}">
+        <p>{{ quote.content }}</p>
+        <p>User Prompt: {{ quote.userPrompt }}</p>
+      </a>
+      <!-- Add unlike icon for liked quotes -->
+      @if(isProfileAuthor()){
+      <button (click)="unLike(quote._id)" class="unlike-icon">Unlike</button>
+      }
+    </div>
+  </div>
+
+  <div class="quote-list" *ngIf="selectedSection === 'favoriteQuotes'">
+    <h3>Favorite Quotes</h3>
+    <div class="quote-card" *ngFor="let quote of user.favoriteQuotes">
+      <a routerLink="/quotes/{{ quote._id }}">
+        <p>{{ quote.content }}</p>
+        <p>User Prompt: {{ quote.userPrompt }}</p>
+      </a>
+      <!-- Add unfavorite icon for favorite quotes -->
+      @if(isProfileAuthor()){
+      <button (click)="unFavorite(quote._id)" class="unfavorite-icon">
+        Unfavorite
+      </button>
+      }
+    </div>
+  </div>
+</div>

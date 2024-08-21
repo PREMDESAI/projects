@@ -1,0 +1,27 @@
+<nav class="navbar">
+  <div class="container">
+    <a routerLink="/">
+      <div class="navbar-brand">
+        <img src="../../../assets/logo.png" alt="QuoteQuiz Logo" class="logo" />
+        <span class="brand-name">QuoteQuiz</span>
+      </div>
+    </a>
+    @if(!isAuthorized()){
+    <ul class="nav-links">
+      <li><a routerLink="/login" routerLinkActive="active">Login</a></li>
+      <li><a routerLink="/signup" routerLinkActive="active">Signup</a></li>
+      <li><a routerLink="/about-us" routerLinkActive="active">About Us</a></li>
+    </ul>
+    }@else{
+    <ul class="nav-links">
+      <li>
+        <a routerLink="/create-quote" routerLinkActive="active">Create Quote</a>
+      </li>
+      <li>
+        <a routerLink="/view-profile/{{getID()}}" routerLinkActive="active">View Profile</a>
+      </li>
+      <li><a (click)="logout()" routerLink="/login" routerLinkActive="active">Logout {{getUserName()}}</a></li>
+    </ul>
+    }
+  </div>
+</nav>

@@ -1,0 +1,88 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #00224d;
+  color: #fff;
+}
+
+a{
+    text-decoration: none;
+}
+.quote-card {
+  margin-top: 10px;
+  background-color: #ff204e;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease-in-out;
+  text-decoration: none;
+  color: inherit;
+}
+
+.quote-card:hover {
+  transform: scale(1.05);
+}
+
+.quote-card p {
+  margin: 0;
+}
+
+.quote-card p.quote {
+    color: #fff;
+    text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.quote-card p.user-prompt {
+  font-style: italic;
+  color: #001634;
+  font-weight: bold;
+}
+
+.actions {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.actions .action {
+  font-size: 14px;
+}
+
+.like-button,
+.favorite-button,
+.comment-button {
+  background-color: #5d0e41;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.liked-button,
+.favorited-button {
+  background-color: #3d062b;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.like-button:hover,
+.favorite-button:hover,
+.comment-button:hover {
+  background-color: #a0153e;
+}
+
+.count {
+  margin-left: 5px;
+  font-weight: bold;
+}

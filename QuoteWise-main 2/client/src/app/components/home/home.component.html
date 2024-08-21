@@ -1,0 +1,36 @@
+<div class="container">
+  <h2>Quotes</h2>
+  @if(quotes.length === 0){
+  <p>No quotes found.</p>
+  }@else {
+  <div>
+    @for(quote of quotes; track quote._id){
+    <div class="quote-card">
+      <a [routerLink]="['/quotes', quote._id]">
+        <div>
+          <p class="quote">{{ quote.content }}</p>
+          <p class="user-prompt">User Prompt: {{ quote.userPrompt }}</p>
+        </div>
+      </a>
+      @if(isLogin()){
+      <div class="actions" >
+        <button (click)="likePost(quote._id)" [className]="isLiked(quote)" class="action">
+          <fa-icon [icon]="heartIcon"></fa-icon>
+          {{ quote.likes.length }}
+        </button>
+        <button class="action comment-button">
+          <fa-icon [icon]="commentIcon"></fa-icon>
+          {{ quote.comments.length }}
+        </button>
+        <button (click)="addToFavorite(quote._id)" class="action" [className]="isFavourited(quote)">
+          <fa-icon [icon]="bookmarkIcon"></fa-icon>
+          {{ quote.favorites.length }}
+        </button>
+      </div>
+
+      }
+    </div>
+    }
+  </div>
+  }
+</div>

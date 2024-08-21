@@ -1,0 +1,52 @@
+<div class="container">
+  <div class="login-container">
+    <img src="../../../assets/logo.png" alt="QuoteQuiz Logo" class="logo" />
+    <h2>Login to QuoteQuiz</h2>
+    <form #loginForm="ngForm">
+      <div class="form-group">
+        <label>Email</label>
+        <input
+          type="email"
+          id="email"
+          ngModel
+          name="email"
+          #email="ngModel"
+          required
+        />
+        <div
+          class="error-message"
+          [hidden]="email.valid || email.untouched"
+        >
+          Enter a valid email
+        </div>
+      </div>
+      <div class="form-group">
+        <label>Password</label>
+        <input
+          type="password"
+          id="password"
+          ngModel
+          name="password"
+          #password="ngModel"
+          required
+          minlength="8"
+        />
+        <div
+          class="error-message"
+          [hidden]="password.valid || password.untouched"
+        >
+          Enter a valid password and must be minimum 8 characters
+        </div>
+      </div>
+      <button
+        type="submit"
+        [disabled]="loginForm.invalid"
+        (click)="login(loginForm)"
+        class="btn"
+      >
+        Login
+      </button>
+    </form>
+    <p>Don't have an account? <a routerLink="/signup">Sign up</a></p>
+  </div>
+</div>

@@ -1,0 +1,20 @@
+<div class="container">
+  <h2>Create Quote</h2>
+  <div class="form-group">
+    <label for="prompt">Prompt:</label>
+    <input
+      type="text"
+      id="prompt"
+      [(ngModel)]="userPrompt"
+      class="prompt-input"
+    />
+  </div>
+  <button class="generate-button" (click)="generateQuote()">
+    Generate Quote
+  </button>
+  <div *ngIf="quote" class="quote-container">
+    <p class="quote">{{ quote }}</p>
+    <p class="user-prompt">User Prompt: {{ userPrompt }}</p>
+  </div>
+  <button class="upload-button" (click)="uploadQuote()">Upload Quote</button>
+</div>

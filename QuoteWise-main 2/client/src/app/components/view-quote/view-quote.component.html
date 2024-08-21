@@ -1,0 +1,58 @@
+<div class="container">
+  <div class="quote-container">
+    <p class="quote">{{ quote.content }}</p>
+    <p class="user-prompt">User Prompt: {{ quote.userPrompt }}</p>
+    <p class="author">
+      Author:
+      <a routerLink="/view-profile/{{ quote.author._id }}">
+        {{ quote.author.username }}
+      </a>
+    </p>
+    <div class="actions">
+      <button (click)="likePost(quote._id)" [className]="isLiked(quote)">
+        <fa-icon [icon]="heartIcon"></fa-icon>
+        {{ quote.likes.length }}
+      </button>
+      <button
+        (click)="addToFavorite(quote._id)"
+        [className]="isFavourited(quote)"
+      >
+        <fa-icon [icon]="bookmarkIcon"></fa-icon>
+        {{ quote.favorites.length }}
+      </button>
+    </div>
+  </div>
+  <div class="comments-container">
+    <h3>Comments</h3>
+    @for(comment of comments; track comment._id){
+    <div class="comment">
+      <p>{{ comment.content }}</p>
+      <p>
+        By:
+        <a routerLink="/view-profile/{{ comment.user._id }}">
+          {{ comment?.user?.username }}
+        </a>
+      </p>
+      @if(comment.user._id && isCommentAuthor(comment.user._id)){
+      <button
+        class="delete-comment-button"
+        (click)="deleteComment(comment._id)"
+      >
+        Delete
+      </button>
+      }
+    </div>
+    }
+  </div>
+
+  <div class="add-comment">
+    <textarea
+      class="comment-input"
+      [(ngModel)]="newComment"
+      placeholder="Add a comment..."
+    ></textarea>
+    <button class="add-comment-button" (click)="addComment()">
+      Add Comment
+    </button>
+  </div>
+</div>
