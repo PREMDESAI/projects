@@ -1,0 +1,85 @@
+Project Scope Document: QuoteWise - AI-Powered Inspirational Quote Generator
+
+1. Project Overview:
+
+QuoteWise is a web application where users can generate quotes using the Gemeni API, showcasing their 
+creativity in crafting prompts for the AI. The app features a homepage, a quotes page displaying AI-generated quotes with user 
+prompts, a generate quote page, a view quote page, user authentication, profile management, likes, comments, and a favorites system.
+
+2. Objectives:
+
+- Develop a user-friendly homepage introducing QuoteWise and its features.
+- Implement a quotes page displaying AI-generated quotes with user prompts, likes, and comments.
+- Create a generate quote page allowing users to input prompts and generate quotes.
+- Develop a view quote page to display quotes along with their likes and comments.
+- Implement user authentication and profile management functionalities.
+- Allow users to change their profile details, including username, password, and email.
+
+3. Features:
+
+a. Homepage:
+
+- Introduction to QuoteWise and its functionalities.
+- Navigation to different sections of the application.
+
+b. Quotes Page:
+
+Display AI-generated quotes with user prompts.
+Show number of likes and comments for each quote.
+Allow users to like and comment on quotes.
+
+c. Generate Quote Page:
+
+Input field for users to provide prompts for quote generation.
+Generate quotes of length 25 to 30 words using the Gemeni API.
+d. View Quote Page:
+
+Display individual quotes along with their details (likes, comments).
+Allow users to like and comment on individual quotes.
+e. User Authentication and Profile Management:
+
+Sign-up and login functionality for users.
+Secure authentication and session management.
+User profile page displaying name, email, and profile details.
+Ability to edit profile details and change password.
+f. Favorites System:
+
+Allow users to mark quotes as favorites for quick access.
+Display favorite quotes on the user's profile page.
+4. Technology Stack:
+
+Frontend: Angular for interactive UI components.
+Backend: Node.js with Express.js for server-side logic.
+Database: MongoDB for storing user profiles, quotes, likes, and comments.
+API Integration: Utilize Gemeni API for generating quotes based on user prompts.
+5. Project Constraints:
+
+Maintain simplicity in design and functionality for ease of use.
+Focus on core functionalities while ensuring scalability for future enhancements.
+6. Deliverables:
+
+Functional web application with specified features.
+Codebase with clear documentation for maintenance and enhancements.
+Deployment-ready application on a hosting platform (e.g., Heroku, AWS).
+7. Timeline:
+
+Planning and Design: 1 week
+Development and Testing: 5 weeks
+Deployment and Final Testing: 1 week
+8. Team Roles:
+
+Developer: Responsible for frontend, backend, and API integration.
+UI/UX Designer: Designing the user interface for optimal user experience.
+QA Tester: Ensuring the application meets quality standards and performs as expected.
+9. Risks and Mitigation:
+
+API Integration Challenges: Thorough testing and error handling for API responses.
+Security Vulnerabilities: Implement secure authentication practices and data encryption.
+Performance Optimization: Regular code reviews and database optimization.
+10. Future Enhancements:
+
+Implement AI model training for improved quote generation based on user feedback.
+Enhance commenting system with threaded discussions and notifications.
+Explore gamification elements such as badges for active users.
+
+
