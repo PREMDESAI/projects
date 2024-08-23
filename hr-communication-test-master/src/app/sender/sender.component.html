@@ -1,0 +1,27 @@
+<div class="container well">
+  <h2>Sender</h2>
+  <p>Sender can only send messages</p>
+  <form class="form-inline" action="/action_page.php">
+    <div class="form-group">
+      <input type="text" class="form-control mrgrgh" [(ngModel)]="message" id="message" placeholder="Message" name="message">
+    </div>
+    <button type="button" (click)="onSend()" class="btn btn-danger">Send</button>
+  </form>
+</div>
+
+  <div class="container mrgbtm">
+    <h2>Sent Messages</h2>            
+    <table class="table table-striped">
+      <thead>
+        <tr>
+          <th>Message</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let msg of messages">
+          <td>{{msg.message}}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+

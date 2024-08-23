@@ -1,0 +1,23 @@
+<div class="well">
+  <h2>Receiver</h2>
+  <p>Receiver only receives messages</p>
+</div>
+
+<div class="container mrgbtmre">
+  <h2>Received Messages</h2>            
+  <table class="table table-striped">
+    <thead>
+      <tr>
+        <th>Message</th>
+        <th></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let msg of messages">
+        <td>{{msg.message}}</td>
+        <td><button (click)="delete(msg.id)" class="btn btn-danger">Delete</button></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
