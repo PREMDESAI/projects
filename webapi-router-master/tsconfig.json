@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "module": "commonjs",
+        "target": "ES6",
+        "outDir": "bin",
+        "rootDir": "lib",
+        "sourceMap": true,
+        "watch": true
+    }
+}
