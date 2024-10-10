@@ -1,0 +1,22 @@
++ Create a new Angular Project ~
++ inject bootstrap 5 cdn ~
++ Create UI design ~
++ Setup environmental variables ~
++ Configure app.config.ts file ~
++ Create email validator service ~
++ Create form UI ~
++ Cosume form service endpoint ~
++ Add toast notifications ~
++ Install airtable (npm i airtable) ~
++ Create an Airtable account ~
++ Generate Aritable Access Token ~
++ Create Airtable Service ~
++ Consume Airtable Service ~
++ 
+
+
+Links
+
++ https://www.npmjs.com/package/airtable
++ https://www.npmjs.com/package/ngx-toastr
++ https://www.npmjs.com/package/airtable

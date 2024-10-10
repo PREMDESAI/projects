@@ -1,0 +1,28 @@
+<div class="container px-5 my-5">
+  <div class="row justify-content-center">
+    <div class="col-lg-8">
+      <div class="card border-0 rounded-3 shadow-lg">
+        <div class="card-body p-4">
+          <div class="text-center">
+            <div class="h1 fw-light">Enter Email</div>
+          </div>
+
+          <form>
+            <!-- Email Input -->
+            <div class="form-floating mb-3">
+              <input [(ngModel)]="emailValue" [ngModelOptions]="{standalone: true}" class="form-control" type="email"
+                placeholder="Email Address" data-sb-validations="required,email" />
+              <label for="emailAddress">Email Address</label>
+            </div>
+
+            <div class="d-grid">
+              <button [disabled]="emailValue().length < 5" class="btn btn-primary btn-lg" type="submit"
+                (click)="validateEmail()">Submit</button>
+            </div>
+          </form>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
