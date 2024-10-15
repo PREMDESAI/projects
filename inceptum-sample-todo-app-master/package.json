@@ -1,0 +1,24 @@
+{
+  "name": "inceptum-sample-todo-app",
+  "version": "0.0.1",
+  "private": true,
+  "description": "A sample inceptum application that uses inceptum-swagger",
+  "keywords": [],
+  "author": "",
+  "license": "",
+  "main": "src/app.js",
+  "dependencies": {
+    "inceptum-web": "^0.4.1",
+    "inceptum-swagger": "^0.4.1",
+    "uuid": "3.0.1"
+  },
+  "devDependencies": {
+    "should": "^7.1.0",
+    "supertest": "^1.0.0"
+  },
+  "scripts": {
+    "start": "node src/app.js",
+    "test": "swagger project test",
+    "edit": "swagger_swagger_fileName=src/api/swagger/swagger.yaml swagger project edit"
+  }
+}
