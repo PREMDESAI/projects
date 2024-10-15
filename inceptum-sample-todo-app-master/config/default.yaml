@@ -1,0 +1,53 @@
+app:
+  name: Sample Application
+  context:
+    name: BaseContext
+  server:
+    port: 10010
+
+mysql:
+  mainMySQLClient: # this is the name of the object that will be exposed in the context
+    master:
+      host: localhost
+      port: 3306
+      user: root
+      password:
+      database: todo
+      charset: utf8
+      connectionLimit: 3
+    slave:
+      host: localhost
+      port: 3306
+      user: root
+      password:
+      database: todo
+      charset: utf8
+      connectionLimit: 10
+
+logging:
+  streams:
+    console:
+      type: console
+    myredis:
+      type: redis
+    mainLogFile:
+      type: file
+      path: main.log
+  loggers:
+    - name: ROOT
+      streams:
+        console: debug
+#        myredis: debug
+        mainLogFile: error
+    - name: ioc/
+      streams:
+        console: info
+#        myredis: info
+    - name: mysql/
+      streams:
+        console: info
+
+application:
+  salutation: Hello, man!
+
+# any other values in this file are just loaded into the config for application access...

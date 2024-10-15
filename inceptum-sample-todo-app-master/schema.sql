@@ -1,0 +1,7 @@
+CREATE DATABASE todo;
+
+CREATE TABLE todo.todo (
+  `id` varchar(36) NOT NULL PRIMARY KEY,
+  `description` varchar(200) NOT NULL,
+  `completed` BOOLEAN NOT NULL DEFAULT FALSE
+) ENGINE=InnoDB DEFAULT CHARSET=UTF8;
