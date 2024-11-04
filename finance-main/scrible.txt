@@ -1,0 +1,16 @@
+Transaction Input
+  - category
+  - amount
+  - date/time
+  - comment
+
+Expense Display
+  - category
+  - amount
+  - date/time
+
+Income Display
+  - category
+  - amount
+  - date/time
+  
