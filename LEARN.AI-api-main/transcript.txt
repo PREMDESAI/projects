@@ -1,0 +1,274 @@
+00:00:00
+last week I went to CES in Las Vegas but
+00:00:02
+I nearly my pants when I saw this AI
+00:00:04
+powered smart toilet from Coler it's got
+00:00:06
+heated seats ambient lighting and
+00:00:08
+emergency flushing capabilities for
+00:00:10
+power outages during the apocalypse but
+00:00:12
+something doesn't smell right with its
+00:00:13
+$88,500 price tag today we'll look at
+00:00:15
+all the craziest Tech from CES 2024 to
+00:00:18
+get a glimpse into our Aid driven
+00:00:19
+dystopian future it is January 15th 2024
+00:00:23
+and you're watching the code report the
+00:00:24
+big theme at CES was you guessed it
+00:00:26
+artificial intelligence and even implied
+00:00:28
+that traditional coding langu are dead
+00:00:30
+in the keynote programming language of
+00:00:32
+the next decade is not going to be the
+00:00:34
+traditional way that we've been writing
+00:00:36
+code it's just going to be natural
+00:00:38
+language what's funny though is that
+00:00:39
+literally nothing at CSS is actually
+00:00:41
+built with AI the reality is that
+00:00:43
+everything's built with C++ Python and
+00:00:45
+JavaScript coded by humans however AI is
+00:00:48
+putting many careers on The Chopping
+00:00:49
+Block like professional bird watchers
+00:00:51
+are in big trouble thanks to these new
+00:00:52
+AI powered binoculars that can
+00:00:54
+automatically identify government spies
+00:00:56
+AKA Birds but if you think software
+00:00:58
+engineering is obsolete another career
+00:00:59
+you might be considering is a tractor
+00:01:01
+operator unfortunately those jobs belong
+00:01:03
+to the robots multiple companies like
+00:01:05
+John Deere are now showcasing driverless
+00:01:07
+tractors and Hyundai's concept X
+00:01:09
+excavator in the near future robots like
+00:01:11
+this will build in police linear smart
+00:01:13
+cities just like the one that's under
+00:01:14
+construction in neom Saudi Arabia right
+00:01:16
+now with minimal manual labor or
+00:01:18
+supervision from humans but even if you
+00:01:20
+find yourself doing manual labor in the
+00:01:21
+future it'll be a lot more productive
+00:01:23
+thanks to AI powered exoskeletons this
+00:01:26
+prox exoskeleton from hypershell is an
+00:01:28
+AI powered suit that can make you run
+00:01:30
+faster jump higher and kickass harder
+00:01:32
+it's got a 1 horsepower motor that can
+00:01:34
+get you running over 12 mph the most
+00:01:36
+obvious application for such a tool is
+00:01:38
+for the military and law enforcement
+00:01:39
+eventually every police officer and
+00:01:41
+Soldier will be an Unstoppable Cyborg
+00:01:43
+and that's great for Humanity because we
+00:01:44
+can finally eradicate crime once and for
+00:01:46
+all but crime is a small problem
+00:01:48
+compared to the upcoming climate
+00:01:49
+catastrophe if we don't do something
+00:01:51
+algor is predicting the ice caps will be
+00:01:53
+totally melted by 2013 it's all your
+00:01:55
+fault but luckily our trusted world
+00:01:56
+leaders are flying around on their
+00:01:58
+private jets trying to figure out a
+00:01:59
+solution tion like did you know Bill
+00:02:00
+Gates had to buy four different private
+00:02:02
+jets that's your fault he's trying to
+00:02:03
+save the world from useless carbon
+00:02:05
+emitters like you but don't worry a
+00:02:06
+final solution is coming another huge
+00:02:08
+theme at CES was electric vehicles
+00:02:10
+Mercedes dropped a new all electric G
+00:02:12
+wagon and there are tons of different
+00:02:13
+cool looking EVS from Brands I've never
+00:02:15
+even heard of and this is all happening
+00:02:17
+while demand is slowing for EVS in the
+00:02:19
+United States which means these cars
+00:02:20
+will likely get cheaper and cheaper in
+00:02:22
+the years ahead but EVS aren't even all
+00:02:23
+that much better for the environment
+00:02:25
+compared to ice the real problem is that
+00:02:26
+there's too many humans consuming too
+00:02:28
+much stuff but most of them are not
+00:02:29
+willing to get into the sarop Pod yet on
+00:02:31
+top of that many people have pets like
+00:02:33
+cats and dogs also useless carbon
+00:02:35
+emitters luckily Samsung introduced a
+00:02:37
+new robot called Bali a cute little
+00:02:39
+robot kind of like Wall-E it's a far
+00:02:40
+superior cat or dog replacement it's
+00:02:42
+powered by Ai and has a built-in
+00:02:44
+projector that can play videos on any
+00:02:46
+wall or act as a little security bot
+00:02:48
+that can keep your house safe while
+00:02:49
+you're away pretty cool but one of the
+00:02:51
+most hyped up products at CES was the
+00:02:53
+rabbit R1 it's a handheld AI assistant
+00:02:56
+that's kind of like if a smartphone and
+00:02:57
+Alexa had a baby basically it Con
+00:02:59
+conects to the apps in your phone and
+00:03:01
+allows you to control them with natural
+00:03:02
+language as opposed to their actual uis
+00:03:05
+thanks to their own custom Foundation
+00:03:06
+model which they call a large action
+00:03:08
+model some people have called this the
+00:03:10
+iPhone moment for the AI era essentially
+00:03:12
+the rabbit R1 makes UI obsolete you can
+00:03:15
+remove the word front- end development
+00:03:16
+from the dictionary because with the
+00:03:17
+rabbit R1 all you have to do is talk
+00:03:19
+into the device like you're talking to a
+00:03:20
+human and it can do all those things you
+00:03:22
+used to do with your fingers on your
+00:03:23
+apps the rabbit sold all 10,000 of its
+00:03:25
+units the first day it was released but
+00:03:27
+personally I think this thing is
+00:03:28
+overhyped you could Lally just build an
+00:03:30
+app that does the same thing instead of
+00:03:32
+carrying a second piece of Hardware
+00:03:33
+around with you oh wait it looks like
+00:03:35
+someone already built that app with
+00:03:36
+flutter overall CES was totally
+00:03:37
+overwhelming like I didn't even mention
+00:03:39
+the Y brush that can brush your teeth in
+00:03:40
+10 seconds or the new Hyundai electric
+00:03:42
+air taxi or the transparent TVs from
+00:03:44
+Samsung and LG or the analog keyboard
+00:03:46
+for your smartphone or how about the
+00:03:48
+smart lamp that watches you at all times
+00:03:49
+to keep you safe or come take a load off
+00:03:51
+with one of these fully immersive VR and
+00:03:53
+AI powered reciprocating devices CES was
+00:03:55
+a lot of fun but now it's your turn to
+00:03:57
+serve your life's purpose and go out and
+00:03:59
+buy all this useless Crow this has been
+00:04:00
+the code report thanks for watching and
+00:04:02
+I will see you in the next one

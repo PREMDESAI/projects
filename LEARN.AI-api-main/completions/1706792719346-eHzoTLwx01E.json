@@ -1,0 +1,23 @@
+{
+  "id": "chatcmpl-8nR2ghuWQXtUOHwEcxtQTDAFPqT79",
+  "object": "chat.completion",
+  "created": 1706792714,
+  "model": "gpt-3.5-turbo-1106",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "The video is a tech report about the highlights and trends from CES 2024, with a focus on AI-driven technology and its potential impact on various industries and aspects of life."
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2127,
+    "completion_tokens": 36,
+    "total_tokens": 2163
+  },
+  "system_fingerprint": "fp_04f9a1eebf"
+}
