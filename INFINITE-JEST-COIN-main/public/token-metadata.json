@@ -1,0 +1,27 @@
+{
+    "name": "Infinite Jest Coin",
+    "symbol": "JEST",
+    "description": "A conceptual token embracing the eternal loop of digital culture. No promises, no endpoints. Just the perpetual wink of a never-ending meme.",
+    "decimals": 18,
+    "image": "https://infinitejestcoin.com/infinite-jest-logo.svg",
+    "properties": {
+        "tokenIcon": "https://infinitejestcoin.com/infinite-jest-logo.svg",
+        "logoURI": "https://infinitejestcoin.com/infinite-jest-logo.svg",
+        "themeColor": "#D946EF"
+    },
+    "external_url": "https://infinitejestcoin.com",
+    "background_color": "FFFFFF",
+    "links": {
+        "website": "https://infinitejestcoin.com",
+        "whitepaper": "https://infinitejestcoin.com/whitepaper",
+        "twitter": "https://twitter.com/ijcmeme",
+        "telegram": "https://t.me/infinitejestcoin",
+        "discord": "https://discord.gg/bpPR95M964",
+        "github": "https://github.com/infinite-jest-coin"
+    },
+    "attributes": {
+        "concept": "Cyclical Nature",
+        "inspiration": "David Foster Wallace",
+        "philosophy": "Embracing the infinite loop of digital culture and online humor"
+    }
+}
