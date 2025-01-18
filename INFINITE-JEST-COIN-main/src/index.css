@@ -1,0 +1,117 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  @keyframes infiniteRotate {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+
+  @keyframes marquee {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-50%); }
+  }
+
+  @keyframes infiniteRotateSlow {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+
+  @keyframes floatWord {
+    0% {
+      opacity: 0;
+      transform: translate(0, 0) scale(1);
+    }
+    20% {
+      opacity: 1;
+      transform: translate(-10px, -10px) scale(1.1);
+    }
+    50% {
+      opacity: 1;
+      transform: translate(10px, 10px) scale(1.05);
+    }
+    80% {
+      opacity: 1;
+      transform: translate(-5px, -5px) scale(1.08);
+    }
+    100% {
+      opacity: 0;
+      transform: translate(0, 0) scale(1);
+    }
+  }
+
+  .animate-infiniteRotate {
+    animation: infiniteRotate 60s linear infinite;
+  }
+
+  .animate-marquee {
+    animation: marquee 20s linear infinite;
+  }
+
+  .animate-floatWord {
+    animation: floatWord 8s ease-in-out infinite;
+  }
+  
+  .animate-float-contract {
+    animation: floatContract 3s ease-in-out infinite;
+  }
+
+  @keyframes floatContract {
+    0%, 100% {
+      transform: translateY(0) rotate(0deg);
+    }
+    50% {
+      transform: translateY(-10px) rotate(5deg);
+    }
+  }
+
+  @keyframes spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+  .animate-spin {
+    animation: spin 1s linear infinite;
+  }
+}
+
+.glass-card {
+    background: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.07);
+}
+
+.animate-fadeIn {
+    animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.wallet-button {
+  @apply rounded-full px-4 py-2 font-semibold transition-all duration-200;
+  @apply bg-fuchsia-500 text-white hover:bg-fuchsia-600;
+  @apply focus:outline-none focus:ring-2 focus:ring-fuchsia-500 focus:ring-offset-2;
+}
+
+/* RainbowKit custom styles */
+[data-rk] {
+  --rk-colors-accentColor: rgb(217, 70, 239) !important;
+  --rk-colors-connectButtonBackground: rgb(217, 70, 239) !important;
+  --rk-colors-connectButtonBackgroundError: rgb(239, 70, 70) !important;
+  --rk-colors-connectButtonInnerBackground: rgb(217, 70, 239) !important;
+  --rk-colors-connectButtonText: white !important;
+  --rk-colors-connectButtonTextError: white !important;
+}
