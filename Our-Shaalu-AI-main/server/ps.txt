@@ -1,0 +1,41 @@
+Bounty Challenge: Government Policy Education AI Chatbot 🌟
+
+Hello AI Mayhem Innovators! We’re thrilled to present a bounty challenge directly from the organizers! Get ready to harness the power of AI to educate and empower the public.
+
+📜 Challenge Brief:
+
+Develop an AI-powered Chatbot that educates people about various government policies, starting with financial policies. This chatbot should make it easier for users to understand complex policy details and their implications.
+
+
+💰 Bounty Reward: ₹20,000
+
+
+🔍 Requirements:
+
+User-friendly interface that is easy for everyone to use.
+
+Capability to explain complex financial policies in simple, understandable terms.
+
+Feature to answer frequently asked questions about these policies.
+
+Ability to provide personalized information based on user queries.
+
+
+🛠 Project Guidelines:
+
+The project must be initiated and completed during the hackathon.
+
+Include a working prototype of the AI Chatbot.
+
+Submit a code repository with full documentation.
+
+Provide a short video demonstrating the chatbot in action.
+
+Pitch detailing how this chatbot can be effectively used to increase public awareness and understanding of government policies.
+
+
+🎯 Submission:
+
+Submit your project by the end of the hackathon to be eligible for the bounty.
+
+We are eager to see your innovative solutions that can make government policies more accessible to everyone! 🚀
