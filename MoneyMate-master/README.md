@@ -33,26 +33,4 @@ According to a recent report by the Reserve Bank of India, digital transactions 
 - Node.js: A JavaScript runtime built on Chrome's V8 JavaScript engine for building scalable server-side applications.
 - MongoDB: A popular NoSQL database for storing and retrieving data.
 
-## Getting Started
 
-To get started with Moneymate, follow the steps below:
-
-1. Install Node.js and MongoDB on your machine.
-2. Clone the repository: `git clone https://github.com/adithya-s-k/MoneyMate.git`
-3. Install dependencies: `npm install`
-4. Start the development server: `npm run dev`
-5. Open the app in your browser: `http://localhost:3000`
-
-## Contributing
-
-Contributions to this project are welcome. To contribute, follow these steps:
-
-1. Fork the repository: `https://github.com/adithya-s-k/MoneyMate.git`
-2. Create a new branch: `git checkout -b feature/your-feature`
-3. Make changes and commit them: `git commit -am 'Add some feature'`
-4. Push to the branch: `git push origin feature/your-feature`
-5. Submit a pull request
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
