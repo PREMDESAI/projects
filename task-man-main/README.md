@@ -1,5 +1,4 @@
 # Taskman
-
 A kanban styled task manager
 <img width="1440" alt="Screenshot 2024-06-13 at 7 32 46 PM" src="https://github.com/avirati/task-man/assets/1936119/8d01caea-fe76-475a-90ff-3e4f7fb7632e">
 
