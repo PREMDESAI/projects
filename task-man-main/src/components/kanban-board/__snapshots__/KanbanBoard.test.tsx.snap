@@ -1,0 +1,158 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`KanbanBoard > renders 1`] = `
+<div>
+  <div
+    class="rt-Flex rt-r-fd-row rt-r-gap-5 c-bFzNrF c-bFzNrF-bzJBWd-isLoading-true"
+  >
+    <div
+      class="rt-Flex rt-r-fd-column rt-r-gap-3"
+      style="height: calc(100vh - 128px - 32px); overflow-y: auto; background-color: rgb(245, 245, 250); border-radius: 4px; padding: 8px; flex-grow: 1; position: relative; max-width: 320px; min-width: 320px;"
+    >
+      <div
+        class="rt-Flex rt-r-jc-space-between"
+      >
+        <p
+          class="rt-Text"
+          role="status"
+          style="color: rgb(170, 170, 170); font-weight: bold;"
+        >
+          TO DO
+           
+        </p>
+        <button
+          class="rt-reset rt-BaseButton rt-r-size-2 rt-variant-soft rt-IconButton"
+          data-accent-color=""
+          style="cursor: pointer;"
+        >
+          <svg
+            fill="none"
+            height="18"
+            viewBox="0 0 15 15"
+            width="18"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              clip-rule="evenodd"
+              d="M8 2.75C8 2.47386 7.77614 2.25 7.5 2.25C7.22386 2.25 7 2.47386 7 2.75V7H2.75C2.47386 7 2.25 7.22386 2.25 7.5C2.25 7.77614 2.47386 8 2.75 8H7V12.25C7 12.5261 7.22386 12.75 7.5 12.75C7.77614 12.75 8 12.5261 8 12.25V8H12.25C12.5261 8 12.75 7.77614 12.75 7.5C12.75 7.22386 12.5261 7 12.25 7H8V2.75Z"
+              fill="currentColor"
+              fill-rule="evenodd"
+            />
+          </svg>
+        </button>
+      </div>
+    </div>
+    <div
+      class="rt-Flex rt-r-fd-column rt-r-gap-3"
+      style="height: calc(100vh - 128px - 32px); overflow-y: auto; background-color: rgb(245, 245, 250); border-radius: 4px; padding: 8px; flex-grow: 1; position: relative; max-width: 320px; min-width: 320px;"
+    >
+      <div
+        class="rt-Flex rt-r-jc-space-between"
+      >
+        <p
+          class="rt-Text"
+          role="status"
+          style="color: rgb(170, 170, 170); font-weight: bold;"
+        >
+          IN PROGRESS
+           
+        </p>
+        <button
+          class="rt-reset rt-BaseButton rt-r-size-2 rt-variant-soft rt-IconButton"
+          data-accent-color=""
+          style="cursor: pointer;"
+        >
+          <svg
+            fill="none"
+            height="18"
+            viewBox="0 0 15 15"
+            width="18"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              clip-rule="evenodd"
+              d="M8 2.75C8 2.47386 7.77614 2.25 7.5 2.25C7.22386 2.25 7 2.47386 7 2.75V7H2.75C2.47386 7 2.25 7.22386 2.25 7.5C2.25 7.77614 2.47386 8 2.75 8H7V12.25C7 12.5261 7.22386 12.75 7.5 12.75C7.77614 12.75 8 12.5261 8 12.25V8H12.25C12.5261 8 12.75 7.77614 12.75 7.5C12.75 7.22386 12.5261 7 12.25 7H8V2.75Z"
+              fill="currentColor"
+              fill-rule="evenodd"
+            />
+          </svg>
+        </button>
+      </div>
+    </div>
+    <div
+      class="rt-Flex rt-r-fd-column rt-r-gap-3"
+      style="height: calc(100vh - 128px - 32px); overflow-y: auto; background-color: rgb(245, 245, 250); border-radius: 4px; padding: 8px; flex-grow: 1; position: relative; max-width: 320px; min-width: 320px;"
+    >
+      <div
+        class="rt-Flex rt-r-jc-space-between"
+      >
+        <p
+          class="rt-Text"
+          role="status"
+          style="color: rgb(170, 170, 170); font-weight: bold;"
+        >
+          IN REVIEW
+           
+        </p>
+        <button
+          class="rt-reset rt-BaseButton rt-r-size-2 rt-variant-soft rt-IconButton"
+          data-accent-color=""
+          style="cursor: pointer;"
+        >
+          <svg
+            fill="none"
+            height="18"
+            viewBox="0 0 15 15"
+            width="18"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              clip-rule="evenodd"
+              d="M8 2.75C8 2.47386 7.77614 2.25 7.5 2.25C7.22386 2.25 7 2.47386 7 2.75V7H2.75C2.47386 7 2.25 7.22386 2.25 7.5C2.25 7.77614 2.47386 8 2.75 8H7V12.25C7 12.5261 7.22386 12.75 7.5 12.75C7.77614 12.75 8 12.5261 8 12.25V8H12.25C12.5261 8 12.75 7.77614 12.75 7.5C12.75 7.22386 12.5261 7 12.25 7H8V2.75Z"
+              fill="currentColor"
+              fill-rule="evenodd"
+            />
+          </svg>
+        </button>
+      </div>
+    </div>
+    <div
+      class="rt-Flex rt-r-fd-column rt-r-gap-3"
+      style="height: calc(100vh - 128px - 32px); overflow-y: auto; background-color: rgb(245, 245, 250); border-radius: 4px; padding: 8px; flex-grow: 1; position: relative; max-width: 320px; min-width: 320px;"
+    >
+      <div
+        class="rt-Flex rt-r-jc-space-between"
+      >
+        <p
+          class="rt-Text"
+          role="status"
+          style="color: rgb(170, 170, 170); font-weight: bold;"
+        >
+          DONE
+           
+        </p>
+        <button
+          class="rt-reset rt-BaseButton rt-r-size-2 rt-variant-soft rt-IconButton"
+          data-accent-color=""
+          style="cursor: pointer;"
+        >
+          <svg
+            fill="none"
+            height="18"
+            viewBox="0 0 15 15"
+            width="18"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              clip-rule="evenodd"
+              d="M8 2.75C8 2.47386 7.77614 2.25 7.5 2.25C7.22386 2.25 7 2.47386 7 2.75V7H2.75C2.47386 7 2.25 7.22386 2.25 7.5C2.25 7.77614 2.47386 8 2.75 8H7V12.25C7 12.5261 7.22386 12.75 7.5 12.75C7.77614 12.75 8 12.5261 8 12.25V8H12.25C12.5261 8 12.75 7.77614 12.75 7.5C12.75 7.22386 12.5261 7 12.25 7H8V2.75Z"
+              fill="currentColor"
+              fill-rule="evenodd"
+            />
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;

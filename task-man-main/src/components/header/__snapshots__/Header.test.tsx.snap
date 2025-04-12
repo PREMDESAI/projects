@@ -1,0 +1,16 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Header > renders 1`] = `
+<div>
+  <div
+    class="rt-Flex rt-r-ai-center"
+    style="width: 100vw; height: 64px; padding: 16px 32px; background: rgb(62, 99, 221); color: rgb(245, 245, 250); position: sticky; top: 0px;"
+  >
+    <h1
+      class="rt-Heading rt-r-size-6"
+    >
+      TASKMAN
+    </h1>
+  </div>
+</div>
+`;

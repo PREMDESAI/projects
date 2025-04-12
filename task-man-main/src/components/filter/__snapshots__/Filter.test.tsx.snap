@@ -1,0 +1,66 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Filter > renders 1`] = `
+<div>
+  <div
+    class="radix-themes"
+    data-accent-color="indigo"
+    data-gray-color="slate"
+    data-has-background="true"
+    data-is-root-theme="true"
+    data-panel-background="translucent"
+    data-radius="medium"
+    data-scaling="100%"
+  >
+    <div
+      class="rt-Flex rt-r-fd-row rt-r-gap-1"
+      style="padding: 12px 0px; width: 100%;"
+    >
+      <div
+        class="rt-TextFieldRoot rt-r-size-2 rt-variant-surface"
+        style="min-width: 158px; max-width: 158px;"
+      >
+        <input
+          class="rt-reset rt-TextFieldInput"
+          placeholder="Filter tasks..."
+          spellcheck="false"
+        />
+      </div>
+      <button
+        aria-autocomplete="none"
+        aria-controls="radix-:r0:"
+        aria-expanded="false"
+        class="rt-reset rt-SelectTrigger rt-r-size-2 rt-variant-surface"
+        data-state="closed"
+        dir="ltr"
+        role="combobox"
+        style="width: 158px;"
+        type="button"
+      >
+        <span
+          class="rt-SelectTriggerInner"
+        >
+          <span
+            style="pointer-events: none;"
+          >
+            ALL
+          </span>
+        </span>
+        <svg
+          aria-hidden="true"
+          class="rt-SelectIcon"
+          fill="currentcolor"
+          height="9"
+          viewBox="0 0 9 9"
+          width="9"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M0.135232 3.15803C0.324102 2.95657 0.640521 2.94637 0.841971 3.13523L4.5 6.56464L8.158 3.13523C8.3595 2.94637 8.6759 2.95657 8.8648 3.15803C9.0536 3.35949 9.0434 3.67591 8.842 3.86477L4.84197 7.6148C4.64964 7.7951 4.35036 7.7951 4.15803 7.6148L0.158031 3.86477C-0.0434285 3.67591 -0.0536285 3.35949 0.135232 3.15803Z"
+          />
+        </svg>
+      </button>
+    </div>
+  </div>
+</div>
+`;

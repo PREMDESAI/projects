@@ -1,0 +1,125 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`TaskDialog > renders 1`] = `
+<div
+  aria-describedby="radix-:r2:"
+  aria-labelledby="radix-:r1:"
+  class="rt-BaseDialogContent rt-DialogContent rt-r-size-3 rt-r-max-w"
+  data-state="open"
+  id="radix-:r0:"
+  role="dialog"
+  style="--max-width: 450px; pointer-events: auto;"
+  tabindex="-1"
+>
+  <h1
+    class="rt-Heading rt-r-size-5 rt-r-lt-start rt-r-mb-3"
+    id="radix-:r1:"
+  >
+    New Task
+  </h1>
+  <p
+    class="rt-Text rt-r-size-2 rt-r-mb-4"
+    id="radix-:r2:"
+  >
+    Add a new task to your list
+  </p>
+  <div
+    class="rt-Flex rt-r-fd-column rt-r-gap-3"
+  >
+    <label>
+      <div
+        class="rt-Text rt-r-size-2 rt-r-weight-bold rt-r-mb-1"
+      >
+        Title
+      </div>
+      <div
+        class="rt-TextFieldRoot rt-r-size-2 rt-variant-surface"
+      >
+        <input
+          aria-label="Task Title"
+          class="rt-reset rt-TextFieldInput"
+          placeholder="What would you like to achieve ?"
+          required=""
+          spellcheck="false"
+          value=""
+        />
+      </div>
+    </label>
+    <label>
+      <div
+        class="rt-Text rt-r-size-2 rt-r-mb-1"
+      >
+        Description
+      </div>
+      <div
+        class="rt-TextAreaRoot rt-r-size-2 rt-variant-surface"
+      >
+        <textarea
+          aria-label="Task Description"
+          class="rt-reset rt-TextAreaInput"
+          placeholder="Elaborate a little..."
+        />
+      </div>
+    </label>
+    <label>
+      <div
+        class="rt-Text rt-r-size-2 rt-r-mb-1"
+      >
+        Status
+      </div>
+      <button
+        aria-autocomplete="none"
+        aria-controls="radix-:r3:"
+        aria-expanded="false"
+        class="rt-reset rt-SelectTrigger rt-r-size-2 rt-variant-surface"
+        data-placeholder=""
+        data-state="closed"
+        dir="ltr"
+        role="combobox"
+        type="button"
+      >
+        <span
+          class="rt-SelectTriggerInner"
+        >
+          <span
+            style="pointer-events: none;"
+          />
+        </span>
+        <svg
+          aria-hidden="true"
+          class="rt-SelectIcon"
+          fill="currentcolor"
+          height="9"
+          viewBox="0 0 9 9"
+          width="9"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M0.135232 3.15803C0.324102 2.95657 0.640521 2.94637 0.841971 3.13523L4.5 6.56464L8.158 3.13523C8.3595 2.94637 8.6759 2.95657 8.8648 3.15803C9.0536 3.35949 9.0434 3.67591 8.842 3.86477L4.84197 7.6148C4.64964 7.7951 4.35036 7.7951 4.15803 7.6148L0.158031 3.86477C-0.0434285 3.67591 -0.0536285 3.35949 0.135232 3.15803Z"
+          />
+        </svg>
+      </button>
+    </label>
+  </div>
+  <div
+    class="rt-Flex rt-r-jc-end rt-r-gap-3 rt-r-mt-4"
+  >
+    <button
+      class="rt-reset rt-BaseButton rt-r-size-2 rt-variant-soft rt-Button"
+      data-accent-color="gray"
+      type="button"
+    >
+      Cancel
+    </button>
+    <button
+      class="rt-reset rt-BaseButton rt-r-size-2 rt-variant-solid rt-Button"
+      data-accent-color=""
+      data-disabled="true"
+      disabled=""
+      type="button"
+    >
+      Save
+    </button>
+  </div>
+</div>
+`;
