@@ -1,0 +1,10 @@
+.CardBody {
+    height: calc(100vh - 170px);
+    overflow-y: scroll;
+}
+
+@media (max-width: 991px) {
+    .CardBody {
+        height: calc(100vh - 225px);
+    }
+}

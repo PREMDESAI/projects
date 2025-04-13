@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://src/components/Estimator.module.css"],"names":[],"mappings":"AAAA,2BACI,0BAA2B,CAC3B,iBACJ,CAEA,yBACI,2BACI,0BACJ,CACJ","file":"main.401ff432.chunk.css","sourcesContent":[".CardBody {\n    height: calc(100vh - 170px);\n    overflow-y: scroll;\n}\n\n@media (max-width: 991px) {\n    .CardBody {\n        height: calc(100vh - 225px);\n    }\n}"]}
