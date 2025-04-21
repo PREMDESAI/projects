@@ -1,0 +1,175 @@
+@import "../../variables.module.scss";
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.calls-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5rem 1rem;
+  background-color: $dark-green-color;
+  color: $white;
+  height: 100vh;
+  font: 400 1.5rem "Open Sans", sans-serif;
+  gap: 1rem;
+
+  .section-title {
+    text-align: flex-start;
+  }
+
+  .calls-form,
+  .calls-info {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding-top: 2.5rem;
+    align-content: center;
+    box-sizing: border-box;
+    position: relative;
+  }
+
+  .calls-info {
+    margin-top: -3rem;
+    padding: 0 1rem 0 5rem;
+
+    h2 {
+      color: $white;
+      margin: 0 0 10px -10px;
+      text-align: left;
+    }
+
+    p {
+      font-size: 17px;
+      margin: 0 0 10px;
+      color: $dark-white-color;
+    }
+
+    ul {
+      list-style-type: none;
+      padding: 0;
+      font-size: 20.5px;
+      margin: 0 0 10px;
+
+      li {
+        position: relative;
+        margin-bottom: 5px;
+        color: $dark-white-color;
+        padding-left: 2rem;
+        font-size: 17px;
+
+        &::before {
+          content: "■";
+          color: $light-green-color;
+          font-size: 1rem;
+          position: absolute;
+          left: 0;
+          top: 0.2rem;
+        }
+      }
+    }
+  }
+
+  .calls-form {
+    padding: 0 5rem 0 1rem;
+    box-sizing: border-box;
+    position: relative;
+    gap: 0.7rem;
+
+    input[type="text"],
+    input[type="email"],
+    select,
+    button {
+      display: block;
+      padding: 1rem 1.3125rem;
+      line-height: 2rem;
+      margin-bottom: 10px;
+      border: none;
+      border-radius: 5px;
+      width: 100%;
+      cursor: text;
+      color: $white;
+    }
+
+    #name,
+    #phone,
+    #email {
+      color: $white;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    select {
+      border: 1px solid $form-input-border-color;
+      background-color: $form-input-bg-color;
+      color: $white;
+    }
+
+    button {
+      background-color: $light-green-color;
+      color: $white;
+      cursor: pointer;
+      width: 100%;
+
+      &:hover {
+        background-color: transparent;
+        color: $light-green-color;
+        border: 1px solid $light-green-color;
+      }
+    }
+  }
+}
+
+.checkbox-container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 16px;
+  user-select: none;
+
+  input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: $white;
+  }
+
+  input:checked ~ .checkmark {
+    background-color: $dark-gray-color;
+  }
+
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+
+  input:checked ~ .checkmark:after {
+    display: block;
+  }
+
+  .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid $white;
+    border-width: 0 3px 3px 0;
+    transform: rotate(45deg);
+  }
+}
