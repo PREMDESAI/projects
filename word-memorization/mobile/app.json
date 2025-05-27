@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "word-memorization",
+    "slug": "word-memorization",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/img/icon2.png",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/img/splash2.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/img/adaptive-icon2.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.qobulovasror.wordmemorization"
+    },
+    "web": {
+      "favicon": "./assets/img/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "57570085-2f84-4ee2-a2fd-4bc104d09fc6"
+      }
+    }
+  }
+}
