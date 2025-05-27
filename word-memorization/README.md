@@ -1,5 +1,5 @@
-# word-memorization-2.0
+# word-memorization
 words memorizing app
 
 
-Old version https://github.com/qobulovasror/word-memorization
+
