@@ -2,13 +2,6 @@
 
 > Job Posting App with ReactJS
 
-<p align="center">
-  <a href="https://reactjs.org/">
-    <img title="ReactJS" src="https://cdn.worldvectorlogo.com/logos/react.svg" width="256">
-  </a>
-</p>
-
----
 
 ## Prerequiste
 
