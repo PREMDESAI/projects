@@ -1,0 +1,24 @@
+{
+  "name": "@ofcljaved/tree",
+  "module": "index.ts",
+  "version": "0.0.2",
+  "type": "module",
+  "private": false,
+  "scripts": {
+    "dev": "bun ./src/index.ts",
+    "build": "bun build src/index.ts --outfile tree --compile"
+  },
+  "bin": {
+    "tree": "dist/index.js"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.7.3"
+  },
+  "dependencies": {
+    "chalk": "^5.4.1",
+    "commander": "^13.1.0"
+  }
+}
