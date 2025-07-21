@@ -1,0 +1,46 @@
+{
+  "name": "graphql-client",
+  "version": "0.0.0",
+  "description": "__",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "repository": "https://github.com/yTakkar/fighting-boredom",
+  "contributors": [
+    "Akshay Nair <phenax5@gmail.com> (https://phenax.github.io)",
+    "Faiyaz Shaikh",
+    "Rakshan Shetty",
+    "Melwyn Saldanha"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "graphql"
+  ],
+  "bugs": {
+    "url": "https://github.com/yTakkar/fighting-boredom/issues"
+  },
+  "homepage": "https://github.com/yTakkar/fighting-boredom#readme",
+  "scripts": {
+    "build": "tsc",
+    "watch": "yarn build --watch",
+    "test": "jest -c jest.config.json --watch",
+    "test:ci": "jest -c jest.config.json --coverage",
+    "coverage:ci": "codecov",
+    "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
+    "lint": "tslint -p tsconfig.json",
+    "prepare": "yarn build",
+    "prepublishOnly": "yarn test && yarn lint",
+    "preversion": "yarn lint",
+    "version": "yarn format && git add -A src",
+    "postversion": "git push && git push --tags"
+  },
+  "devDependencies": {
+    "@types/jest": "^22.2.3",
+    "codecov": "^3.1.0",
+    "jest": "^23.6.0",
+    "prettier": "^1.13.2",
+    "ts-jest": "^22.4.6",
+    "tslint": "^5.10.0",
+    "tslint-config-prettier": "^1.13.0",
+    "typescript": "^2.8.3"
+  }
+}
