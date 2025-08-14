@@ -1,0 +1,24 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      OnceSaid
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-subtitle>
+        <ion-chip color="primary" *ngFor="let tag of this.Quote.tags" >
+          <ion-label color="primary">{{tag}}</ion-label>
+        </ion-chip>
+      </ion-card-subtitle>
+      <ion-card-title>{{this.Quote.author}}</ion-card-title>
+    </ion-card-header>
+  
+    <ion-card-content>
+      {{this.Quote.quote}}
+    </ion-card-content>
+  </ion-card>
+</ion-content>
